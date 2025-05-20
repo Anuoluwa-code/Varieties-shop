@@ -1,0 +1,51 @@
+
+.btn{
+  display: inline;
+  border-radius: 30px;
+  padding-inline: 40px;
+  padding-block: 25px;
+  text-transform: capitalize;
+  background-color:#22c55e;
+  color: #fff;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin: auto;
+}
+
+.form h2{
+
+  text-transform: uppercase;
+  font-size: 32px;
+  text-align: center;
+}
+
+.form input{
+  display: block;
+  width: 100%;
+  outline: none;
+  border: 3px solid white;
+  border-radius: 15px;
+  padding-block: 10px;
+  margin-block: 20px;
+  text-align: left;
+  font-size: 25px;
+}
+
+.form ::placeholder{
+  font-size: 30px;
+  padding-inline-start: 5px;
+}
+
+.p{
+  font-size: 30px;
+  text-align: center;
+  margin-block: 20px;
+  text-transform: capitalize;
+}
+
+
+      
