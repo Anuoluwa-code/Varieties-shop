@@ -5,6 +5,7 @@ import products from '@/component/data/products';
 import ProductCard from '@/component/ProductCard';
 import DarkModeToggle from '@/component/DarkModeToggle';
 import { useCart } from '@/component/CartContext';
+import CartProvider from '@/component/CartContext'
 
 
 export default function Page() {
@@ -13,6 +14,7 @@ export default function Page() {
   const [cart, setCart] = useState([]);
   const [favorites, setFavorites] = useState([]);
   const {color} = useCart()
+  // const [Cart] = CartProvider()
 
   
 
