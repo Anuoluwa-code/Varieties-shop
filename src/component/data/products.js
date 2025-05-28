@@ -40,7 +40,7 @@ const product = [
     description: ["Comfortable and lightweight for daily runs", "Men's Slip-On Sneakers - Breathable Running Shoes with Geometric & Letter Print for Gym & Casual Attire."],
     price: 25500,
     category: "Footwear",
-    image: "/images/Runningshoes.avif",
+    image: "/images/RunningShoes.avif",
     rating: 4.6,
   },
   {

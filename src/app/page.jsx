@@ -40,6 +40,7 @@ export default function Home() {
   return (
     <main className={`min-h-screen ${color} p-5`}>
 
+
 <div className='min-h-screen'>
 
 <div className='flex justify-end'>
