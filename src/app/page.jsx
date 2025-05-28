@@ -6,10 +6,9 @@ import ProductCard from '@/component/ProductCard';
 import DarkModeToggle from '@/component/DarkModeToggle';
 import { useCart } from '@/component/CartContext';
 // import CartProvider from '@/component/CartContext'
-// import tailwindConfig from '../../tailwind.config';
 
 
-export default function Page() {
+export default function Home() {
   const [searchTerm, setSearchTerm] = useState('');
   const [category, setCategory] = useState('All');
   const [cart, setCart] = useState([]);
