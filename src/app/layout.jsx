@@ -49,7 +49,7 @@ const pop = Poppins({
 });
 
 export const metadata = {
-  title: "E-commerce Website",
+  title: "Varieties Shop",
   description: "Alpha Project",
 };
 

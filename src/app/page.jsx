@@ -5,7 +5,8 @@ import products from '@/component/data/products';
 import ProductCard from '@/component/ProductCard';
 import DarkModeToggle from '@/component/DarkModeToggle';
 import { useCart } from '@/component/CartContext';
-import CartProvider from '@/component/CartContext'
+// import CartProvider from '@/component/CartContext'
+// import tailwindConfig from '../../tailwind.config';
 
 
 export default function Page() {
@@ -14,6 +15,7 @@ export default function Page() {
   const [cart, setCart] = useState([]);
   const [favorites, setFavorites] = useState([]);
   const {color} = useCart()
+  // const { custom animate } = tailwindConfig.theme.extend;
   // const [Cart] = CartProvider()
 
   
@@ -47,7 +49,7 @@ export default function Page() {
       
     
 <section className="text-center mt-8">
-        <h1 className="text-2xl font-extrabold font-serif text-white uppercase">
+        <h1 className="text-2xl font-extrabold font-serif text-white uppercase custom-animation ease-in-out 3s">
           Welcome to Our Shopping Store!
         </h1>
         <p className='text-lg font-bold capitalize text-white font-serif'>A Taste to shop for more...</p>

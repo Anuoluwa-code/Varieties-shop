@@ -26,9 +26,9 @@ const Navbar = () => {
 
   return (
     <nav className={`w-full shadow-md ${color} bg-fixed px-6 py-4 flex items-center justify-between relative z-50`}>
-      <div className="text-2xl font-extrabold text-[#323232] font-serif flex items-center space-x-2">
+      <div className="text-2xl font-extrabold text-white font-serif flex items-center space-x-2 animate-fadeIn">
         <img src="/images/logo.jpg" className="h-8 w-8" alt="Logo" />
-        <b>ALPHA.COM</b>
+        <b>Varieties Store</b>
       </div>
 
       <ul className="hidden md:flex space-x-8 text-[#323232] font-medium">
